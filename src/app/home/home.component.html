@@ -1,0 +1,8 @@
+<div class="btn-toolbar mb-3 mt-3 form-control" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-outline-secondary" (click)="incrementar(+5)">+</button>
+        <button type="button" class="btn btn-outline-secondary" (click)="incrementar(-5)"> - </button>
+    </div>
+    <div class="input-group">
+        <input [(ngModel)]="numero" type="number" class="form-control">
+    </div>
